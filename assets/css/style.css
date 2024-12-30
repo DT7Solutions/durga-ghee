@@ -130,6 +130,7 @@ Author:  themepresss
 --------------------------------------------------------------*/
 html {
   font-size: 15px;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -1267,6 +1268,21 @@ img {
 /*--------------------------------------------------------------
 #0.3	header
 --------------------------------------------------------------*/
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+section {
+  scroll-margin-top: 75px; 
+}
+
 .site-header {
   /* navigation open and close btn hide for width screen */
   /* style for navigation less than 992px */
