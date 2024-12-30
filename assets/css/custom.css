@@ -1,0 +1,36 @@
+.site-header .navigation .navbar-header {
+    margin-top: 5px;
+}
+.navbar-brand {
+    max-width: 150px;
+}
+.section-padding {
+    padding: 65px 0px 60px;
+}
+.hero-style-2,
+.hero-style-2 .slide {
+    height: 750px;
+}
+@media (max-width: 1200px) {
+    .category-area .category-wrap .category-title h2, .category-area-s2 .category-wrap .category-title h2 {
+      font-size: 0px;
+    }
+}
+
+@media screen and (min-width : 992px) {
+    .site-header #navbar > ul .sub-menu {
+        background-color: #fff;
+        width: 250px;
+        left: 0;
+    }
+    .site-header #navbar > ul > li > a:before {
+        display: none;
+    }
+    .site-header #navbar > ul > li > a {
+        padding: 20px 25px;
+    }
+    .site-header #navbar > ul > li > .sub-menu .sub-menu {
+        left: 100%;
+        top: -3px;
+    }
+}
