@@ -639,10 +639,10 @@
                     items: 2
                 },
                 760: {
-                    items: 4
+                    items: 3
                 },
                 1080: {
-                    items: 5
+                    items: 3
                 }
             }
         });
