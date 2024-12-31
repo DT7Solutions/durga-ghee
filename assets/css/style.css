@@ -8116,3 +8116,11 @@ input[type=radio]:checked + .topcoat-radio-button:after {
 }
 /*# sourceMappingURL=style.css.map */
 
+.tp-site-footer {
+    /* background: #242424; */
+    background-image: url(../images/footer/footer.png);
+    position: relative;
+    font-size: 15px;
+    overflow: hidden;
+    z-index: 1;
+}
