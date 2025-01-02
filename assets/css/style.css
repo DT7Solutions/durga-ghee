@@ -96,7 +96,6 @@ Author:  themepresss
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'Now';
   src: url(../fonts/text-fonts/now-regular.otf) format("truetype");
@@ -401,7 +400,7 @@ img {
 }
 
 .section-title h2 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 600;
   line-height: 1em;
   margin: 0;
