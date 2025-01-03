@@ -81,3 +81,34 @@
     font-size: 30px !important;
     font-weight: 400;
 }
+.product-wrap .product-item .product-content h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.buy-now{
+    background: -webkit-gradient(linear, left top, right top, from(#ed1d24), color-stop(50%, #bf692d), to(#ed1d24));
+    background: linear-gradient(left, #ed1d24, #bf692d 50%, #ed1d24);
+
+    background: -webkit-linear-gradient(left, #ed1d24, #bf692d 50%, #ed1d24);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 7px 14px !important;
+    border: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    background-size: 100%, 1px;
+    background-position: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 3px;
+}
+.buy-now:hover{
+    color: #fff;
+}
+.quickview-dialog {
+    margin: 5% auto;
+}
