@@ -1,4 +1,4 @@
-emailjs.init("user_id");
+emailjs.init("zK7PxPCjSdKZ6YEfl");
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
@@ -14,7 +14,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         note: document.getElementById("note").value
     };
 
-    emailjs.send("service_id", "template_id", templateParams)
+    emailjs.send("service_ovetcls", "template_92u18xp", templateParams)
         .then(function(response) {
             document.getElementById("success").style.display = "block";
             console.log('Success:', response);
