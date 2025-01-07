@@ -112,3 +112,7 @@
 .quickview-dialog {
     margin: 5% auto;
 }
+
+.contact-ft i{
+    font-size: 5px !important;
+}
