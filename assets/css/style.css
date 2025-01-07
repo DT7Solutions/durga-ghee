@@ -8192,13 +8192,42 @@ p {
 .tp-site-footer .tp-lower-footer a {
     color: #ffffff !important;
 }
-
-
-.mobile-img {
-  display: none;  
-  width: 100%;  
-  height: auto;  
+.image-area {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
 }
 
+.desktop-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
+.mobile-img {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@media (max-width: 991px) {
+  .desktop-img {
+      display: none;
+  }
+  .mobile-img {
+      display: block;
+  }
+}
+.about-section, .container-fluid, .row {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 0;
+}
 
