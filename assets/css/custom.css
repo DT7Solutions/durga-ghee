@@ -175,14 +175,24 @@
 
   /* our client */
   .client-carousel {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-  }
-  .client-area .owl-carousel .owl-item img {
-    max-width: 150px;
+    justify-content: center;
+    /* gap: 15px; */
+}
+
+.client-area .owl-carousel .owl-item img {
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
     max-height: 100px;
-  }
+}
+
+.client-area .owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
   .qwerty {
     position: absolute;
     top: 5px;
