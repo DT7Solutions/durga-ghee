@@ -236,3 +236,9 @@
     width: auto;
 }
 
+
+/* product details */
+.product-details .product-single-content .product-filter-item.color.filter-size ul li label a{
+    color: #fff;
+}
+
