@@ -164,6 +164,15 @@
     bottom: 110px;
     right: 9px;
   }
+  #header{
+    margin-bottom: 0px !important;
+  }
+  .site-header .header-style-22{
+    margin-bottom: 0px !important;
+  } 
+  .site-header .navigation{
+    padding: 0 !important;
+  }
   }
   .float:hover, .float:focus{
     color:#FFF;
@@ -241,4 +250,25 @@
 .product-details .product-single-content .product-filter-item.color.filter-size ul li label a{
     color: #fff;
 }
+/* hero section slide */
+@media only screen and (max-width: 768px){
+    .hero-style-2 .slide {
+    background-size: contain !important ;
+    background-position: center !important;
+    max-height: 300px;
+    margin: 0% 0% -2.5%; 
+        
+    }
+}
+/* @media(max-width:480px){
+    .hero-style-2 .slide {
+    height: 100%;
+    margin: -2.5% 0%;
+    background-size: contain: ;;
+}
+} */
+    
+
+
+
 
