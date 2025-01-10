@@ -179,6 +179,9 @@
                 nextArrow: '<button type="button" class="slick-next">Next</button>',
                 dots: true,
                 fade: true,
+                loop:true,
+                autoplay: true,          
+                autoplaySpeed: 5000,
                 cssEase: 'linear',
             });
         }
@@ -633,10 +636,10 @@
             autoplayTimeout: 3000,
             responsive: {
                 0: {
-                    items: 2
+                    items: 1
                 },
                 480: {
-                    items: 2
+                    items: 1
                 },
                 760: {
                     items: 4

@@ -259,6 +259,16 @@
     margin: 0% 0% -2.5%; 
         
     }
+    
+.hero-style-2, .hero-style-2 .slide {
+    height: 300px;
+}
+.category-area-s2{
+    margin-top: -100px;
+}
+.slick-dots{
+    display: none !important;
+}
 }
 /* @media(max-width:480px){
     .hero-style-2 .slide {
